@@ -1,0 +1,135 @@
+Initialize engine version: 5.4.1f1 (649f48bbbf0f)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics 4600 (ID=0x416)
+    Vendor:   Intel
+    VRAM:     1136 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Kurtn\Documents\Cours_ICAN\4e_année\Programmation\Unity Project\Géolocalisation\Builds\testPhoton_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Kurtn\Documents\Cours_ICAN\4e_année\Programmation\Unity Project\Géolocalisation\Builds\testPhoton_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Kurtn\Documents\Cours_ICAN\4e_année\Programmation\Unity Project\Géolocalisation\Builds\testPhoton_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Kurtn\Documents\Cours_ICAN\4e_année\Programmation\Unity Project\Géolocalisation\Builds\testPhoton_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Kurtn\Documents\Cours_ICAN\4e_année\Programmation\Unity Project\Géolocalisation\Builds\testPhoton_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Kurtn\Documents\Cours_ICAN\4e_année\Programmation\Unity Project\Géolocalisation\Builds\testPhoton_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Kurtn\Documents\Cours_ICAN\4e_année\Programmation\Unity Project\Géolocalisation\Builds\testPhoton_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Kurtn\Documents\Cours_ICAN\4e_année\Programmation\Unity Project\Géolocalisation\Builds\testPhoton_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Kurtn\Documents\Cours_ICAN\4e_année\Programmation\Unity Project\Géolocalisation\Builds\testPhoton_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Kurtn\Documents\Cours_ICAN\4e_année\Programmation\Unity Project\Géolocalisation\Builds\testPhoton_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Kurtn\Documents\Cours_ICAN\4e_année\Programmation\Unity Project\Géolocalisation\Builds\testPhoton_Data\Managed\Photon3Unity3D.dll (this message is harmless)
+Loading C:\Users\Kurtn\Documents\Cours_ICAN\4e_année\Programmation\Unity Project\Géolocalisation\Builds\testPhoton_Data\Managed\Photon3Unity3D.dll into Unity Child Domain
+- Completed reload, in  0.541 seconds
+Platform assembly: C:\Users\Kurtn\Documents\Cours_ICAN\4e_année\Programmation\Unity Project\Géolocalisation\Builds\testPhoton_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Kurtn\Documents\Cours_ICAN\4e_année\Programmation\Unity Project\Géolocalisation\Builds\testPhoton_Data\Managed\System.dll (this message is harmless)
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.800173 ms
+SwitchToProtocol: Udp PhotonNetwork.connected: False
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+OnStatusChanged: Connect current State: ConnectingToNameServer
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Connected to NameServer.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+OnStatusChanged: EncryptionEstablished current State: ConnectingToNameServer
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+OperationResponse 230: ReturnCode: 0.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Received your UserID from server. Updating local value to: test
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+OnStatusChanged: Disconnect current State: DisconnectingFromNameServer
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+OnStatusChanged: Connect current State: ConnectingToMasterserver
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Connected to masterserver.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+OnStatusChanged: EncryptionEstablished current State: Authenticating
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+OnEvent: Event 226.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+OperationResponse 230: ReturnCode: 0.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+DemoAnimator/Launcher: OnConnectedToMaster() was called by PUN
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+OperationResponse 225: ReturnCode: 0.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+OnStatusChanged: Disconnect current State: DisconnectingFromMasterserver
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+OnStatusChanged: Connect current State: ConnectingToGameserver
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Connected to gameserver.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+OnStatusChanged: EncryptionEstablished current State: ConnectedToGameserver
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+OperationResponse 230: ReturnCode: 0.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+OperationResponse 226: ReturnCode: 0.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+OnEvent: Event 255.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+DemoAnimator/Launcher: OnJoinedRoom() called by PUN. Now this client is in a room.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+We are Instantiating LocalPlayer from Test
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Registered PhotonView: 2001
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+OnEvent: Event 202.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Registered PhotonView: 1001
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 768 -> priority: 1 
+  Thread -> id: 25a4 -> priority: 1 
