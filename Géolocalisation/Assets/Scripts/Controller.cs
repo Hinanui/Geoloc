@@ -1,12 +1,16 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 public class Controller : Photon.PunBehaviour
 {
 	private float speed = 10;
+
+	public Text Debug;
 	// Use this for initialization
 	void Start()
 	{
+		Debug = GameObject.Find("Text").GetComponent<Text>();
 	}
 
 	// Update is called once per frame
@@ -17,21 +21,14 @@ public class Controller : Photon.PunBehaviour
 			return;
 		}
 
-		if (Input.GetKey(KeyCode.Z))
-		{
-			transform.position += Vector3.up * Time.deltaTime;
-		}
-		if (Input.GetKey(KeyCode.S))
-		{
-			transform.position -= Vector3.up * Time.deltaTime;
-		}
-		if (Input.GetKey(KeyCode.Q))
-		{
-			transform.position += Vector3.left * Time.deltaTime;
-		}
-		if (Input.GetKey(KeyCode.D))
-		{
-			transform.position += Vector3.right * Time.deltaTime;
-		}
+		transform.position = 
+			GPSTools.toLocalCoordinates(Input.location.lastData.latitude, Input.location.lastData.longitude);
+
+		Camera.main.transform.position = new Vector3(this.transform.position.x, this.transform.position.y, -10f);
+
+		Debug.text = "Lattitude : " + Input.location.lastData.latitude +
+									"\nLongitude : " + Input.location.lastData.longitude +
+									"\nXpos : " + transform.position.x +
+									"\nYpos : " + transform.position.y;
 	}
 }

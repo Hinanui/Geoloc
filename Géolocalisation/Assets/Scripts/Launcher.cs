@@ -9,9 +9,6 @@ namespace Com.MyCompany.MyGame
 
 		public GameObject canvas;
 
-		[Tooltip("The prefab to use for representing the player")]
-		public GameObject playerPrefab;
-
 		/// <summary>
 		/// The PUN loglevel. 
 		/// </summary>
@@ -132,20 +129,9 @@ namespace Com.MyCompany.MyGame
 		{
 			Debug.Log("DemoAnimator/Launcher: OnJoinedRoom() called by PUN. Now this client is in a room.");
 
-			if (playerPrefab == null)
-			{
-				Debug.LogError("<Color=Red><a>Missing</a></Color> playerPrefab Reference. Please set it up in GameObject 'Game Manager'", this);
-			}
-			else
-			{
-				Debug.Log("We are Instantiating LocalPlayer from " + Application.loadedLevelName);
-				// we're in a room. spawn a character for the local player. it gets synced by using PhotonNetwork.Instantiate
-				PhotonNetwork.Instantiate(this.playerPrefab.name, new Vector3(0f, 0f, 0f), Quaternion.identity, 0);
-			}
-
 			if (PhotonNetwork.isMasterClient)
 			{
-				PhotonNetwork.LoadLevel("Test");
+				PhotonNetwork.LoadLevel("RealGame");
 			}
 		}
 
