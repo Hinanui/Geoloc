@@ -10,6 +10,7 @@ public class InvisiblePlayerController : Photon.PunBehaviour, IPunObservable
 	public double? Lat { get; private set; }
 	public double? Long { get; private set; }
 	public bool Alive { get; private set; }
+	public bool IsStrong { get; private set; }
 
 	private Text Debug;
 
@@ -53,7 +54,7 @@ public class InvisiblePlayerController : Photon.PunBehaviour, IPunObservable
 				player.Long.Value
 			);
 
-            playersDistance.Add(distance);
+			playersDistance.Add(distance);
 
 			str.Append(distance).Append("\n");
 		}
